@@ -38,7 +38,7 @@ const StudentDetails = () => {
                     data.doc.setFontSize(12);
                     data.doc.setTextColor(40);
                     data.doc.text("Subject", data.settings.margin.left, 45);
-                    data.doc.text("Total Marks", data.settings.margin.left + 80, 45);
+                    data.doc.text("Total Marks", data.settings.margin.left + 90, 45);
                     data.doc.text("Obtained Marks", data.settings.margin.left + 130, 45);
                 },
             });
